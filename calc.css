@@ -1,0 +1,10 @@
+body{
+    font-family:sans-serif;
+    background-color:green;
+    text-align:center;
+    }
+    input{
+      border-radius:10px;
+      margin-bottom:20px;
+      margin-top:20px;
+    }

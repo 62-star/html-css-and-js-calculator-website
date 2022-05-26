@@ -1,0 +1,32 @@
+<Doctype html>
+    <html>
+      <head>
+          <link rel="stylesheet" href="calc.css">
+          <link rel="stylesheet" href="calc.css">
+        <title>ES6 task</title>
+      </head>
+      <body>
+        <h1>INSERT TWO NUMBERS</h1>
+        <form>
+          <input type="text" id="first number"/> <br>
+    <input type="text" id="second number"/>
+          <br>
+     <input  type="button" onclick="multiplyBy()" value="multiply"/>
+      <input type="button" onclick="divideBy()" value="divide"/>
+        </form>
+        <p>the result:<br><span id="result"></span></p>
+        <script>
+function divideBy() {
+number1 = document.getElementById("first number").value;
+number2 = document.getElementById("second number").value;
+document.getElementById("result").innerHTML= number1/number2;
+} 
+function multiplyBy() {
+number1 = document.getElementById("first number").value;
+number2 = document.getElementById("second number").value;
+document.getElementById("result").innerHTML= number1*number2;
+}
+        </script>
+      </body>
+    </html>
+    
